@@ -1,0 +1,20 @@
+PODS:
+  - SwiftLint (0.51.0)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - SwiftLint
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+    - Toaster
+
+SPEC CHECKSUMS:
+  SwiftLint: 1b7561918a19e23bfed960e40759086e70f4dba5
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: 56051693b8330f6224e64bfa320294b78d2ac2de
+
+COCOAPODS: 1.12.0

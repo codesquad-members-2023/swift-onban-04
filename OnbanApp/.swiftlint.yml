@@ -1,0 +1,9 @@
+disabled_rules:
+    - force_cast
+#    - force_unwrapping
+    
+opt_in_rules:
+    - function_body_length
+
+excluded:
+    - Pods
