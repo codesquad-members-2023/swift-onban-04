@@ -17,6 +17,7 @@
 		6307B81B29EF937900A0142D /* OnbanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B81A29EF937900A0142D /* OnbanAppUITests.swift */; };
 		6307B81D29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B81C29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift */; };
 		6307B82B29EF961900A0142D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6307B82A29EF961900A0142D /* .swiftlint.yml */; };
+		6307B82D29EFB27600A0142D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B82C29EFB27600A0142D /* CollectionViewCell.swift */; };
 		FEECD40073D9A0A915C1FA58 /* Pods_OnbanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD7AAEEC5518800A6F992F0 /* Pods_OnbanApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		6307B81A29EF937900A0142D /* OnbanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbanAppUITests.swift; sourceTree = "<group>"; };
 		6307B81C29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbanAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6307B82A29EF961900A0142D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		6307B82C29EFB27600A0142D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		ACD7AAEEC5518800A6F992F0 /* Pods_OnbanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnbanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E468F1628B41D1D5F948E1AF /* Pods-OnbanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnbanApp.debug.xcconfig"; path = "Target Support Files/Pods-OnbanApp/Pods-OnbanApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				6307B7F929EF937700A0142D /* AppDelegate.swift */,
 				6307B7FB29EF937700A0142D /* SceneDelegate.swift */,
 				6307B7FD29EF937700A0142D /* ViewController.swift */,
+				6307B82C29EFB27600A0142D /* CollectionViewCell.swift */,
 				6307B7FF29EF937700A0142D /* Main.storyboard */,
 				6307B80229EF937900A0142D /* Assets.xcassets */,
 				6307B80429EF937900A0142D /* LaunchScreen.storyboard */,
@@ -351,6 +354,7 @@
 			files = (
 				6307B7FE29EF937700A0142D /* ViewController.swift in Sources */,
 				6307B7FA29EF937700A0142D /* AppDelegate.swift in Sources */,
+				6307B82D29EFB27600A0142D /* CollectionViewCell.swift in Sources */,
 				6307B7FC29EF937700A0142D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
