@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6307B7FA29EF937700A0142D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B7F929EF937700A0142D /* AppDelegate.swift */; };
+		6307B7FC29EF937700A0142D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B7FB29EF937700A0142D /* SceneDelegate.swift */; };
+		6307B7FE29EF937700A0142D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B7FD29EF937700A0142D /* ViewController.swift */; };
+		6307B80129EF937700A0142D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6307B7FF29EF937700A0142D /* Main.storyboard */; };
+		6307B80329EF937900A0142D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6307B80229EF937900A0142D /* Assets.xcassets */; };
+		6307B80629EF937900A0142D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6307B80429EF937900A0142D /* LaunchScreen.storyboard */; };
+		6307B81129EF937900A0142D /* OnbanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B81029EF937900A0142D /* OnbanAppTests.swift */; };
+		6307B81B29EF937900A0142D /* OnbanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B81A29EF937900A0142D /* OnbanAppUITests.swift */; };
+		6307B81D29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B81C29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift */; };
+		6307B82B29EF961900A0142D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6307B82A29EF961900A0142D /* .swiftlint.yml */; };
+		6307B82D29EFB27600A0142D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307B82C29EFB27600A0142D /* CollectionViewCell.swift */; };
+		FEECD40073D9A0A915C1FA58 /* Pods_OnbanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD7AAEEC5518800A6F992F0 /* Pods_OnbanApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6307B80D29EF937900A0142D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6307B7EE29EF937700A0142D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6307B7F529EF937700A0142D;
+			remoteInfo = OnbanApp;
+		};
+		6307B81729EF937900A0142D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6307B7EE29EF937700A0142D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6307B7F529EF937700A0142D;
+			remoteInfo = OnbanApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6059A7464665167BF49FD2C5 /* Pods-OnbanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnbanApp.release.xcconfig"; path = "Target Support Files/Pods-OnbanApp/Pods-OnbanApp.release.xcconfig"; sourceTree = "<group>"; };
+		6307B7F629EF937700A0142D /* OnbanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnbanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307B7F929EF937700A0142D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6307B7FB29EF937700A0142D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6307B7FD29EF937700A0142D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6307B80029EF937700A0142D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6307B80229EF937900A0142D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6307B80529EF937900A0142D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6307B80729EF937900A0142D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6307B80C29EF937900A0142D /* OnbanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnbanAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307B81029EF937900A0142D /* OnbanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbanAppTests.swift; sourceTree = "<group>"; };
+		6307B81629EF937900A0142D /* OnbanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnbanAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6307B81A29EF937900A0142D /* OnbanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbanAppUITests.swift; sourceTree = "<group>"; };
+		6307B81C29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbanAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6307B82A29EF961900A0142D /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		6307B82C29EFB27600A0142D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		ACD7AAEEC5518800A6F992F0 /* Pods_OnbanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnbanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E468F1628B41D1D5F948E1AF /* Pods-OnbanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnbanApp.debug.xcconfig"; path = "Target Support Files/Pods-OnbanApp/Pods-OnbanApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6307B7F329EF937700A0142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEECD40073D9A0A915C1FA58 /* Pods_OnbanApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307B80929EF937900A0142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307B81329EF937900A0142D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6307B7ED29EF937700A0142D = {
+			isa = PBXGroup;
+			children = (
+				6307B82A29EF961900A0142D /* .swiftlint.yml */,
+				6307B7F829EF937700A0142D /* OnbanApp */,
+				6307B80F29EF937900A0142D /* OnbanAppTests */,
+				6307B81929EF937900A0142D /* OnbanAppUITests */,
+				6307B7F729EF937700A0142D /* Products */,
+				EFECE91F74A162330E079D5C /* Pods */,
+				69B1D9175F1EA4F0E038C936 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6307B7F729EF937700A0142D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6307B7F629EF937700A0142D /* OnbanApp.app */,
+				6307B80C29EF937900A0142D /* OnbanAppTests.xctest */,
+				6307B81629EF937900A0142D /* OnbanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6307B7F829EF937700A0142D /* OnbanApp */ = {
+			isa = PBXGroup;
+			children = (
+				6307B7F929EF937700A0142D /* AppDelegate.swift */,
+				6307B7FB29EF937700A0142D /* SceneDelegate.swift */,
+				6307B7FD29EF937700A0142D /* ViewController.swift */,
+				6307B82C29EFB27600A0142D /* CollectionViewCell.swift */,
+				6307B7FF29EF937700A0142D /* Main.storyboard */,
+				6307B80229EF937900A0142D /* Assets.xcassets */,
+				6307B80429EF937900A0142D /* LaunchScreen.storyboard */,
+				6307B80729EF937900A0142D /* Info.plist */,
+			);
+			path = OnbanApp;
+			sourceTree = "<group>";
+		};
+		6307B80F29EF937900A0142D /* OnbanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6307B81029EF937900A0142D /* OnbanAppTests.swift */,
+			);
+			path = OnbanAppTests;
+			sourceTree = "<group>";
+		};
+		6307B81929EF937900A0142D /* OnbanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6307B81A29EF937900A0142D /* OnbanAppUITests.swift */,
+				6307B81C29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift */,
+			);
+			path = OnbanAppUITests;
+			sourceTree = "<group>";
+		};
+		69B1D9175F1EA4F0E038C936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7AAEEC5518800A6F992F0 /* Pods_OnbanApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFECE91F74A162330E079D5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E468F1628B41D1D5F948E1AF /* Pods-OnbanApp.debug.xcconfig */,
+				6059A7464665167BF49FD2C5 /* Pods-OnbanApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6307B7F529EF937700A0142D /* OnbanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6307B82029EF937900A0142D /* Build configuration list for PBXNativeTarget "OnbanApp" */;
+			buildPhases = (
+				D980831A94DE5A3B33BE29EA /* [CP] Check Pods Manifest.lock */,
+				6307B82929EF943C00A0142D /* SwiftLint */,
+				6307B7F229EF937700A0142D /* Sources */,
+				6307B7F329EF937700A0142D /* Frameworks */,
+				6307B7F429EF937700A0142D /* Resources */,
+				0FAA44A05A1415D56E36B651 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnbanApp;
+			productName = OnbanApp;
+			productReference = 6307B7F629EF937700A0142D /* OnbanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6307B80B29EF937900A0142D /* OnbanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6307B82329EF937900A0142D /* Build configuration list for PBXNativeTarget "OnbanAppTests" */;
+			buildPhases = (
+				6307B80829EF937900A0142D /* Sources */,
+				6307B80929EF937900A0142D /* Frameworks */,
+				6307B80A29EF937900A0142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6307B80E29EF937900A0142D /* PBXTargetDependency */,
+			);
+			name = OnbanAppTests;
+			productName = OnbanAppTests;
+			productReference = 6307B80C29EF937900A0142D /* OnbanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6307B81529EF937900A0142D /* OnbanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6307B82629EF937900A0142D /* Build configuration list for PBXNativeTarget "OnbanAppUITests" */;
+			buildPhases = (
+				6307B81229EF937900A0142D /* Sources */,
+				6307B81329EF937900A0142D /* Frameworks */,
+				6307B81429EF937900A0142D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6307B81829EF937900A0142D /* PBXTargetDependency */,
+			);
+			name = OnbanAppUITests;
+			productName = OnbanAppUITests;
+			productReference = 6307B81629EF937900A0142D /* OnbanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6307B7EE29EF937700A0142D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6307B7F529EF937700A0142D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6307B80B29EF937900A0142D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6307B7F529EF937700A0142D;
+					};
+					6307B81529EF937900A0142D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6307B7F529EF937700A0142D;
+					};
+				};
+			};
+			buildConfigurationList = 6307B7F129EF937700A0142D /* Build configuration list for PBXProject "OnbanApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6307B7ED29EF937700A0142D;
+			productRefGroup = 6307B7F729EF937700A0142D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6307B7F529EF937700A0142D /* OnbanApp */,
+				6307B80B29EF937900A0142D /* OnbanAppTests */,
+				6307B81529EF937900A0142D /* OnbanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6307B7F429EF937700A0142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6307B82B29EF961900A0142D /* .swiftlint.yml in Resources */,
+				6307B80629EF937900A0142D /* LaunchScreen.storyboard in Resources */,
+				6307B80329EF937900A0142D /* Assets.xcassets in Resources */,
+				6307B80129EF937700A0142D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307B80A29EF937900A0142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307B81429EF937900A0142D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FAA44A05A1415D56E36B651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnbanApp/Pods-OnbanApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnbanApp/Pods-OnbanApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnbanApp/Pods-OnbanApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6307B82929EF943C00A0142D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+		D980831A94DE5A3B33BE29EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnbanApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6307B7F229EF937700A0142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6307B7FE29EF937700A0142D /* ViewController.swift in Sources */,
+				6307B7FA29EF937700A0142D /* AppDelegate.swift in Sources */,
+				6307B82D29EFB27600A0142D /* CollectionViewCell.swift in Sources */,
+				6307B7FC29EF937700A0142D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307B80829EF937900A0142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6307B81129EF937900A0142D /* OnbanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307B81229EF937900A0142D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6307B81D29EF937900A0142D /* OnbanAppUITestsLaunchTests.swift in Sources */,
+				6307B81B29EF937900A0142D /* OnbanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6307B80E29EF937900A0142D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6307B7F529EF937700A0142D /* OnbanApp */;
+			targetProxy = 6307B80D29EF937900A0142D /* PBXContainerItemProxy */;
+		};
+		6307B81829EF937900A0142D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6307B7F529EF937700A0142D /* OnbanApp */;
+			targetProxy = 6307B81729EF937900A0142D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6307B7FF29EF937700A0142D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6307B80029EF937700A0142D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6307B80429EF937900A0142D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6307B80529EF937900A0142D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6307B81E29EF937900A0142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6307B81F29EF937900A0142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6307B82129EF937900A0142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E468F1628B41D1D5F948E1AF /* Pods-OnbanApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F5MZFTY2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnbanApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inwoo.OnbanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6307B82229EF937900A0142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6059A7464665167BF49FD2C5 /* Pods-OnbanApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F5MZFTY2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnbanApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inwoo.OnbanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6307B82429EF937900A0142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F5MZFTY2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inwoo.OnbanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnbanApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnbanApp";
+			};
+			name = Debug;
+		};
+		6307B82529EF937900A0142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F5MZFTY2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inwoo.OnbanAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnbanApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnbanApp";
+			};
+			name = Release;
+		};
+		6307B82729EF937900A0142D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F5MZFTY2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inwoo.OnbanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnbanApp;
+			};
+			name = Debug;
+		};
+		6307B82829EF937900A0142D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2F5MZFTY2R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Inwoo.OnbanAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnbanApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6307B7F129EF937700A0142D /* Build configuration list for PBXProject "OnbanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6307B81E29EF937900A0142D /* Debug */,
+				6307B81F29EF937900A0142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6307B82029EF937900A0142D /* Build configuration list for PBXNativeTarget "OnbanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6307B82129EF937900A0142D /* Debug */,
+				6307B82229EF937900A0142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6307B82329EF937900A0142D /* Build configuration list for PBXNativeTarget "OnbanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6307B82429EF937900A0142D /* Debug */,
+				6307B82529EF937900A0142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6307B82629EF937900A0142D /* Build configuration list for PBXNativeTarget "OnbanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6307B82729EF937900A0142D /* Debug */,
+				6307B82829EF937900A0142D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6307B7EE29EF937700A0142D /* Project object */;
+}
