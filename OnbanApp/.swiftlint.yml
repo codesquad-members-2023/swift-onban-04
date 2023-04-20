@@ -7,3 +7,4 @@ opt_in_rules:
 
 excluded:
     - Pods
+    - OnbanApp/ViewController.swift
