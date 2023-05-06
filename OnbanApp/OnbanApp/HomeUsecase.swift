@@ -38,10 +38,19 @@ class HomeUsecase: UseCase {
         default:
             storeIndex = 2
         }
-
         usingData[storeIndex] = mealData
 
-        NotificationCenter.default.post(name: NotificationName.homeMain,
+        let nameOfNotification: Notification.Name
+        switch mealDataType {
+        case .main:
+            nameOfNotification = NotificationName.homeMain
+        case .side:
+            nameOfNotification = NotificationName.homeSide
+        case .soup:
+            nameOfNotification = NotificationName.homeSoup
+        }
+        
+        NotificationCenter.default.post(name: nameOfNotification,
                                         object: nil)
     }
 

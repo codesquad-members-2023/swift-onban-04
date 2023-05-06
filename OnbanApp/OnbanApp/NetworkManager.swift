@@ -3,8 +3,8 @@ import Foundation
 struct NetworkManager {
     static let sharedSession = URLSession.shared
 
-    static func request(data url: ServerURL) async throws -> (String, Data) {
-        guard let requestURL = ServerURL.make(url) else {
+    static func request(data type: MealDataType) async throws -> (String, Data) {
+        guard let requestURL = MealDataType.convertToURL(by: type) else {
             logger.log("URL is bad.")
             throw RequestError.badURL
         }
@@ -22,7 +22,7 @@ struct NetworkManager {
             throw RequestError.statusCodeOutOfRange
         }
 
-        return (url.rawValue, data)
+        return (type.rawValue, data)
     }
 
     // NetworkManager 인스턴스 생성 가능성을 차단

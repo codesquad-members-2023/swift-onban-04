@@ -1,7 +1,6 @@
-import Foundation
+//  Created by wood on 2023/05/05.
 
-class HomeRepository: Repository {
-    // TODO: - 스케줄링 알고리즘 적용 예정. mealDatas 적정 데이터 수를 유지하기 위함
+struct HomeRemoteDataSource: DataSource {
     
     func request(data type: MealDataType) async -> MealData? {
         let task = Task {
@@ -35,8 +34,4 @@ class HomeRepository: Repository {
             return nil
         }
     }
-}
-
-enum FetchError: Error {
-    case decodingError
 }
